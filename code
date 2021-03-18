@@ -40,104 +40,107 @@ int ledToggle(String command) {
 
     // Turns on the LEDs to blink name in morse code
     if (command=="on") {
-        //D
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(3000);
+        loop()
+        {
+           //D
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(3000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(1000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(1000);
             
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(1000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(1000);
             
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(3000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(3000);
             
-        //E
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           //E
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(3000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(3000);
             
-        //V
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           //V
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(1000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(1000);
             
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(1000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(1000);
             
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(3000);
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(3000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(3000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(3000);
             
-        //I
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           //I
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(1000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(1000);
         
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(3000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(3000);
             
-        //N
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(3000);
+           //N
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(3000);
             
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(1000);
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(1000);
             
-        digitalWrite(led1,HIGH);
-        digitalWrite(led2,HIGH);
-        delay(1000);
+           digitalWrite(led1,HIGH);
+           digitalWrite(led2,HIGH);
+           delay(1000);
             
-        //End (Signals End)
-        digitalWrite(led1,LOW);
-        digitalWrite(led2,LOW);
-        delay(7000);
-        return 1;
+           //End (Signals End)
+           digitalWrite(led1,LOW);
+           digitalWrite(led2,LOW);
+           delay(7000);
+           return 1;
+        }
     }
     // Turns off the LEDs
     else if (command=="off") {
